@@ -129,7 +129,7 @@ a {
   -ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out; }
   a:hover {
-    color: #ef8376;
+    color: #F5002D;
     border-bottom-color: transparent; }
 
 sub {
@@ -1092,7 +1092,7 @@ ul.icons {
       border: 0;
       color: inherit; }
       ul.icons li a:hover {
-        color: #ef8376; }
+        color: #F5002D; }
 
 /* Form */
 form label {
@@ -1124,7 +1124,7 @@ form textarea {
   form select:focus,
   form textarea:focus {
     background: #fff;
-    border-color: #df7366; }
+    border-color: #F5002D; }
 
 form input[type="text"],
 form input[type="email"],
@@ -1180,7 +1180,7 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  background: #df7366;
+  background: #F5002D;
   color: #fff;
   text-align: center;
   border-radius: 0.5em;
@@ -1200,7 +1200,7 @@ button,
   button:hover,
   .button:hover {
     color: #fff;
-    background: #ef8376; }
+    background: #F5002D; }
   input[type="button"].alt,
   input[type="submit"].alt,
   input[type="reset"].alt,
@@ -1409,7 +1409,7 @@ body.homepage.is-preload #header:after {
     .dropotron li:first-child {
       border-top: 0; }
     .dropotron li:hover {
-      color: #ef8376; }
+      color: #F5002D; }
     .dropotron li a, .dropotron li span {
       display: block;
       border: 0;
@@ -1532,7 +1532,7 @@ body.homepage.is-preload #header:after {
       margin: -1.5em 0 0 0;
       background: url("images/arrow.svg") no-repeat center center; }
     .carousel .forward:hover:before, .carousel .backward:hover:before {
-      background-color: rgba(239, 131, 118, 0.75); }
+      background-color: #F5002D; }
   .carousel .forward {
     right: 0; }
     .carousel .forward:before {
