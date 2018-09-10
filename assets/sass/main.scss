@@ -355,6 +355,9 @@
 			display: block;
 			width: 100%;
 		}
+		&.margin_top_4 {
+			margin-top: 4em;
+		}
 
 		&.featured {
 			display: block;
@@ -365,6 +368,15 @@
 		&.left {
 			float: left;
 			margin: 0 2em 2em 0;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 2em 2em;
+		}
+
+		&.thumb {
+			max-width: 10vw;
 		}
 
 		&.centered {
@@ -398,6 +410,10 @@
 			padding-left: 0.25em;
 		}
 	}
+			.txt_left {
+				text-align: left !important
+			}
+
 
 /* Actions */
 

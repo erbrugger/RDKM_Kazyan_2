@@ -995,8 +995,6 @@ footer {
   .image.fit {
     display: block;
     width: 100%; }
-  .image.margin_top_4 {
-    margin-top: 4em; }
   .image.featured {
     display: block;
     width: 100%;
@@ -1004,11 +1002,6 @@ footer {
   .image.left {
     float: left;
     margin: 0 2em 2em 0; }
-  .image.right {
-    float: right;
-    margin: 0 0 2em 2em; }
-  .image.thumb {
-    max-width: 10vw; }
   .image.centered {
     display: block;
     margin: 0 0 2em 0; }
