@@ -171,8 +171,9 @@
 
 	a {
 		color: inherit;
-		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
+		border-bottom: solid 1px rgba(128, 128, 128, 0.7);
 		text-decoration: none;
+		font-weight: bold;
 		@include vendor('transition', ('background-color 0.35s ease-in-out', 'color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 
 		&:hover {
@@ -205,7 +206,24 @@
 
 	p {
 		text-align: justify;
+		&.txt_left {
+				text-align: left !important;
+			}
+
+	 	&.txt_heading {
+				font-size: 1.5em !important;
+    			line-height: 1.5em !important;
+    			margin: 1em 0 2em 0;
+			}
 	}
+
+	.txt_left {
+				text-align: left !important;
+			}
+	.txt_heading {
+				font-size: 1.5em !important;
+    			line-height: 1.5em !important;
+			}
 
 	br.clear {
 		clear: both;
@@ -243,6 +261,23 @@
 	.timestamp {
 		color: rgba(128, 128, 128, 0.75);
 		font-size: 0.8em;
+	}
+
+	#arrow{
+	  color: #fff;
+	  animation-name: arrow-animation;
+	  animation-direction: alternate;
+	  animation-iteration-count: infinite;
+	  animation-duration: 1s;
+	}
+
+	@keyframes arrow-animation {
+	  0%{
+	    transform: translateY(0px);
+	  }
+	  100%{
+	    transform: translateY(20px);
+	  }
 	}
 
 /* Container */
@@ -410,9 +445,6 @@
 			padding-left: 0.25em;
 		}
 	}
-			.txt_left {
-				text-align: left !important
-			}
 
 
 /* Actions */
